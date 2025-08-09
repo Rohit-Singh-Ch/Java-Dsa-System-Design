@@ -1,7 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
-import java.util.stream.Stream;
 
 public class Test {
 
@@ -11,8 +11,6 @@ public class Test {
     }
 
 }
-
-
 final class MyCache {
     private final int CAPACITY = 10;
     private List<String> list = new ArrayList<>(CAPACITY);

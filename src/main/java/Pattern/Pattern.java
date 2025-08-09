@@ -4,7 +4,6 @@ public class Pattern {
     public static void main(String[] args) {
         pattern1(5);
     }
-
     /**
      *   *
      *   **
